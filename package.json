@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@jeefo/fs": "0.0.1",
+    "@jeefo/utils": "0.0.6",
+    "express": "4.17.1"
+  },
+  "devDependencies": {}
+}

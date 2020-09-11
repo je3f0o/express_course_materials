@@ -1,0 +1,36 @@
+
+
+# NPM basic commands, package.json
+# Node commonjs pattern design
+# Hello world express app
+# Rest API
+# HTTP Protocol (High level)
+# express API - Rest API
+    Router
+    Request
+    Middlewares
+    Response
+    Application
+
+# node-mysql
+# @jeefo/fs
+# socket.io
+# crypto (high level)
+# file upload
+# url parser - express middleware
+# body parser - express middleware
+# cookie parser - express middleware
+# custom - express middleware
+# Templating
+# Error handling ( jeefo router )
+
+# Web API
+# /user/info
+# /user/login
+# /user/logout
+# /user/register
+
+
+
+
+
