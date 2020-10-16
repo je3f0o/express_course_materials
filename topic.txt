@@ -12,6 +12,7 @@
     Response
     Application
 
+# static files share
 # node-mysql
 # @jeefo/fs
 # socket.io

@@ -1,7 +1,7 @@
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 * File Name   : index.js
 * Created at  : 2020-09-11
-* Updated at  : 2020-10-06
+* Updated at  : 2020-10-16
 * Author      : jeefo
 * Purpose     :
 * Description :
@@ -15,15 +15,14 @@
 
 // ignore:end
 
-const path               = require("path");
-const express            = require("express");
-const app                = express();
-const {port, public_dir} = require("./config");
+const express       = require("express");
+const app           = express();
+const {port}        = require("./config");
+const route_handler = require("./server/router");
 
-app.get('/', function (req, res) {
-    const filepath = path.join(public_dir, "index.html");
-    res.sendFile(filepath);
-});
+route_handler(app);
+
+app.use(express.static("public"));
 
 app.listen(port, function () {
     console.log(`Hello expressjs app listening at http://0.0.0.0:${port}`);

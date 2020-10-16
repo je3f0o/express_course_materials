@@ -1,20 +1,13 @@
 
 # Today's topics
 
-Theory:
+Application object methods:
 
-* Rest API
-* HTTP Protocol
-
-Response object methods:
-
-* type
-* status
-* send
-* sendStatus
-* sendFile
-* json
+* Basic routing (express.Router)
+* Serving static files
+* Request/Response headers
+* Introduction about `req.params`
 
 date
 
-`Tue Oct 6 22:36:55 +08 2020 Ulaanbaatar time`;
+`Fri Oct 16 22:43:41 +08 2020`;
