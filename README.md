@@ -1,13 +1,11 @@
 
 # Today's topics
 
-Application object methods:
-
-* Basic routing (express.Router)
-* Serving static files
-* Request/Response headers
-* Introduction about `req.params`
+* Router.head() and chainable Router.route() method
+* Middleware
+* `morgan` middleware
+* `body-parser` middleware
 
 date
 
-`Fri Oct 16 22:43:41 +08 2020`;
+`Tue Nov 24 00:38:31 +08 2020`;

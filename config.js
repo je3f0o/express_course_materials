@@ -1,7 +1,7 @@
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 * File Name   : config.js
 * Created at  : 2020-10-06
-* Updated at  : 2020-10-06
+* Updated at  : 2020-11-23
 * Author      : jeefo
 * Purpose     :
 * Description :
@@ -18,6 +18,7 @@
 const path     = require("path");
 const base_dir = process.cwd();
 
-exports.port       = process.env.NODE_PORT || 3000;
-exports.root_dir   = base_dir;
-exports.public_dir = path.join(base_dir, "public");
+exports.port          = process.env.NODE_PORT || 3000;
+exports.root_dir      = base_dir;
+exports.public_dir    = path.join(base_dir, "public");
+exports.is_production = process.env.NODE_ENV === "production";
